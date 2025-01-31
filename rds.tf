@@ -49,11 +49,11 @@ resource "aws_db_instance" "mydb" {
   }
 
   # Optional: Enabling automatic backups
-  backup_retention_period = 7  # Retain backups for 7 days
-  preferred_backup_window  = "07:00-09:00"  # Set backup window (optional)
+  #backup_retention_period = 7  # Retain backups for 7 days
+  #preferred_backup_window  = "07:00-09:00"  # Set backup window (optional)
 
   # Optional: Enabling monitoring
-  monitoring_interval = 60  # In seconds, set to 60 for 1-minute monitoring
+  #monitoring_interval = 60  # In seconds, set to 60 for 1-minute monitoring
 }
 
 output "db_endpoint" {
