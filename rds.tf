@@ -35,8 +35,8 @@ resource "aws_db_instance" "mydb" {
   allocated_storage = 20  # 20 GB of storage
   storage_type      = "gp2"  # General Purpose SSD storage
   db_name           = "mydatabase"
-  username          = "admin"  # Root username for MySQL
-  password          = "admin"  # Change to a secure password
+  username          = "masteradmin"  # Root username for MySQL
+  password          = "adminmaster"  # Change to a secure password
   parameter_group_name = "default.mysql8.0"  # Use the appropriate parameter group
   multi_az          = false  # Set to true for high availability in production
   publicly_accessible = true  # Set to false for internal access only
