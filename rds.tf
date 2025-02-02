@@ -1,4 +1,4 @@
-# Set provider configuration for AWS
+# Set provider configuration for AWS 
 provider "aws" {
   region = "us-east-1"  # You can change this to your desired region
 }
